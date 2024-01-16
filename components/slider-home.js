@@ -1,9 +1,9 @@
-import React, {Fragment} from "react";
-import {Dialog, Transition} from "@headlessui/react";
-import {X} from "react-feather";
+import React, { Fragment } from "react";
+import { Dialog, Transition } from "@headlessui/react";
+import { X } from "react-feather";
 import Link from "next/link";
 
-function SliderHome({open, setOpen}) {
+function SliderHome({ open, setOpen }) {
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -16,7 +16,7 @@ function SliderHome({open, setOpen}) {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-gray-500/75 transition-opacity"/>
+          <div className="fixed inset-0 bg-gray-500/75 transition-opacity" />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-hidden">
@@ -43,7 +43,7 @@ function SliderHome({open, setOpen}) {
                   >
                     {/* Boutton fermeture */}
                     <div>
-                      <div className="absolute right-0 top-0 h-20 w-20 rounded-bl-full bg-white_background_bobby"/>
+                      <div className="absolute right-0 top-0 h-20 w-20 rounded-bl-full bg-white_background_bobby" />
                       <div className="absolute right-0 top-0 pr-4 pt-4">
                         <div className="flex h-full w-full items-start justify-end">
                           <button
@@ -52,7 +52,7 @@ function SliderHome({open, setOpen}) {
                             onClick={() => setOpen(!open)}
                           >
                             <span className="sr-only">Close panel</span>
-                            <X className="h-8 w-8" aria-hidden="true"/>
+                            <X className="h-8 w-8" aria-hidden="true" />
                           </button>
                         </div>
                       </div>
@@ -73,12 +73,12 @@ function SliderHome({open, setOpen}) {
                           </div>
                           <div className="flex flex-row gap-4 pt-4">
                             <Link href="https://www.instagram.com/idea_ut1/" target="_blank"
-                                  className="text-gray-400 hover:text-gray-500 ">
+                              className="text-gray-400 hover:text-gray-500 ">
                               <span className="sr-only">Instagram</span>
                               <Instagram />
                             </Link>
                             <Link href="https://www.linkedin.com/company/idea-miage/" target="_blank"
-                                  className="text-gray-400 hover:text-gray-500 ">
+                              className="text-gray-400 hover:text-gray-500 ">
                               <span className="sr-only">Linkedin</span>
                               <Linkedin />
                             </Link>
@@ -90,16 +90,16 @@ function SliderHome({open, setOpen}) {
                         </div>
                       </div>
 
-                      { /* Barre blanche */ }
+                      { /* Barre blanche */}
                       <div className="w-px bg-white"></div>
 
                       {/* Menu */}
                       <div className="max-h-0 w-3/4">
                         <div className="mt-6 flex flex-col justify-center gap-4 px-4 text-5xl text-gray-100 sm:px-6">
-                          <a href="#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Home</a>
-                          <a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Skills</a>
-                          <a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projects</a>
-                          <a href="#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>FAQ</a>
+                          <div class="hitbox"><a href="#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Home</a></div>
+                          <div class="hitbox"><a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Skills</a></div>
+                          <div class="hitbox"><a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projects</a></div>
+                          <div class="hitbox"><a href="#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>FAQ</a></div>
                         </div>
                       </div>
                     </div>
@@ -131,8 +131,8 @@ const Mail = ({ size = 32 }) => (
     viewBox="0 0 24 24"
     fill="currentColor">
     <path fillRule="evenodd"
-          d="M17.834 6.166a8.25 8.25 0 100 11.668.75.75 0 011.06 1.06c-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788 3.807-3.808 9.98-3.808 13.788 0A9.722 9.722 0 0121.75 12c0 .975-.296 1.887-.809 2.571-.514.685-1.28 1.179-2.191 1.179-.904 0-1.666-.487-2.18-1.164a5.25 5.25 0 11-.82-6.26V8.25a.75.75 0 011.5 0V12c0 .682.208 1.27.509 1.671.3.401.659.579.991.579.332 0 .69-.178.991-.579.3-.4.509-.99.509-1.671a8.222 8.222 0 00-2.416-5.834zM15.75 12a3.75 3.75 0 10-7.5 0 3.75 3.75 0 007.5 0z"
-          clipRule="evenodd" />
+      d="M17.834 6.166a8.25 8.25 0 100 11.668.75.75 0 011.06 1.06c-3.807 3.808-9.98 3.808-13.788 0-3.808-3.807-3.808-9.98 0-13.788 3.807-3.808 9.98-3.808 13.788 0A9.722 9.722 0 0121.75 12c0 .975-.296 1.887-.809 2.571-.514.685-1.28 1.179-2.191 1.179-.904 0-1.666-.487-2.18-1.164a5.25 5.25 0 11-.82-6.26V8.25a.75.75 0 011.5 0V12c0 .682.208 1.27.509 1.671.3.401.659.579.991.579.332 0 .69-.178.991-.579.3-.4.509-.99.509-1.671a8.222 8.222 0 00-2.416-5.834zM15.75 12a3.75 3.75 0 10-7.5 0 3.75 3.75 0 007.5 0z"
+      clipRule="evenodd" />
   </svg>
 );
 

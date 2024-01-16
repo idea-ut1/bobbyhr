@@ -15,6 +15,7 @@ body {
 }
 
 @layer base {
+
   html,
   body {
     @apply dark:bg-gray_bobby;
@@ -30,3 +31,14 @@ body {
     background: black;
   }
 } */
+
+.hitbox {
+  width: 20px;
+  display: inline-block;
+  /* Permet à l'élément de s'adapter au contenu */
+}
+
+.hitbox::before,
+.hitbox::after {
+  pointer-events: none;
+}
