@@ -4,7 +4,7 @@ import Container from "./container";
 
 import cgr from "@/public/image/projects/cgr.png";
 import tfc from "@/public/image/projects/tfc.png";
-import fou from "@/public/image/projects/puy_du_fou.svg";
+import fou from "@/public/image/projects/puy.png";
 
 const Testimonials  = () => {
   return (
