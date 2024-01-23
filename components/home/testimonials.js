@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Container from "./container";
 
 import cgr from "@/public/image/projects/cgr.png";
 import tfc from "@/public/image/projects/tfc.png";
@@ -8,7 +7,7 @@ import fou from "@/public/image/projects/puy.png";
 
 const Testimonials  = () => {
   return (
-    <Container>
+    <div className="container mx-auto p-8 xl:px-0">
       <div className="grid gap-10 lg:grid-cols-2 xl:grid-cols-3">
         <div className="hover:-translate-y-1 lg:col-span-2 xl:col-auto">
           <div className="dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
@@ -48,7 +47,7 @@ const Testimonials  = () => {
           </div>
         </div>
       </div>
-    </Container>
+    </div>
   );
 }
 

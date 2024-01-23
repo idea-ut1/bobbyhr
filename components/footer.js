@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import Container from "./home/container";
 import idea from "@/public/image/idea-logo.png";
 
 export default function Footer() {
@@ -19,7 +18,7 @@ export default function Footer() {
 
   return (
     <div className="relative">
-      <Container>
+      <div className="container mx-auto p-8 xl:px-0">
         <div className="dark:border-trueGray-700 mx-auto mt-5 grid max-w-screen-xl grid-cols-1 gap-10 border-t border-gray-100 pt-10 lg:grid-cols-5">
           <div className="lg:col-span-2">
             <div>
@@ -95,7 +94,7 @@ export default function Footer() {
         <div className="my-10 text-center text-sm text-gray-600 dark:text-gray-400">
           Copyright IDeA © {new Date().getFullYear()}.
         </div>
-      </Container>
+      </div>
     </div>
   );
 }

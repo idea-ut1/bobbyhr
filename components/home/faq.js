@@ -1,13 +1,12 @@
 "use client";
 
 import React from "react";
-import Container from "./container";
 import { Disclosure } from "@headlessui/react";
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
 const Faq = () => {
   return (
-    <Container className="!p-0">
+    <div className="container mx-auto p-8 xl:px-0">
       <div className="mx-auto w-full max-w-2xl rounded-2xl p-2">
         {faqdata.map((item) => (
           <div key={item.question} className="mb-5">
@@ -31,7 +30,7 @@ const Faq = () => {
           </div>
         ))}
       </div>
-    </Container>
+    </div>
   );
 }
 
