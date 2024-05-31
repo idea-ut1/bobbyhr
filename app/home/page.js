@@ -25,12 +25,18 @@ import { useState } from "react";
 import Testimonials from "@/components/home/testimonials";
 import Faq from "@/components/home/faq";
 import Footer from "@/components/footer";
+<<<<<<< Updated upstream
+=======
+import AnnouncementBanner from "@/components/AnnouncementBanner";
+import ThemeChanger from '@/components/home/DarkSwitch';
+>>>>>>> Stashed changes
 
 export default function CV() {
   const [open, setOpen] = useState(false);
 
   return (
     <div className="bg-white_background_bobby px-6">
+      <ThemeChanger />
       <div className="relative">
         <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby" />
         <div className="fixed right-0 top-0 pr-4 pt-4">
