@@ -103,7 +103,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Analyse et amélioration de la gestion des données clients pour l'entreprise.
+                            Analyse et amélioration de la gestion des données clients pour l&apos;entreprise.
                         </p>
                         <Avatar
                             image={aeg}
@@ -117,7 +117,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Développement et mise en place d'un bot sur notre serveur discord.
+                            Développement et mise en place d&apos;un bot sur notre serveur discord.
                         </p>
                         <Avatar
                             image={bot}
@@ -131,7 +131,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Développement de l'intelligence artificielle pour un jeu vidéo.
+                            Développement de l&apos;intelligence artificielle pour un jeu vidéo.
                         </p>
                         <Avatar
                             image={spirits}
@@ -145,7 +145,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Analyser la qualité de vie des habitants de l'Occitanie et proposer des pistes d'amélioration.
+                            Analyser la qualité de vie des habitants de l&apos;Occitanie et proposer des pistes d&apos;amélioration.
                         </p>
                         <Avatar
                             image={occ}
@@ -215,7 +215,7 @@ const Caroussel_projet = (props) => {
                 <div className="slide-container" style={{ height: '350px', width: '475px' }}>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
-                            Traitement et analyse des données sur les correspondances et les abonnements par le biais de tableaux de bord, et mise en place d'une typologie des clients.
+                            Traitement et analyse des données sur les correspondances et les abonnements par le biais de tableaux de bord, et mise en place d&apos;une typologie des clients.
                         </p>
                         <Avatar
                             image={tfc}

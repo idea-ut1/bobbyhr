@@ -38,8 +38,8 @@ export default function Footer() {
 
             <div className="mt-4 max-w-md text-gray-500 dark:text-gray-400">
               IDeA est une organisation à but non lucratif qui promeut le développement
-              de divers projets dans le domaine de l'éducation,
-              de la culture, de l'art et de la science.
+              de divers projets dans le domaine de l&apos;éducation,
+              de la culture, de l&apos;art et de la science.
             </div>
           </div>
 

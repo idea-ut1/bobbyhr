@@ -52,7 +52,7 @@ export default function CV() {
         id = "wall"
         pretitle="Pourquoi IDeA?"
         title="Pourquoi vous devez nous contacter?">
-        Nous sommes une équipe d'étudiants qui ont appris à coder et nous voulons vous aider à créer votre projet.
+        Nous sommes une équipe d&apos; étudiants qui ont appris à coder et nous voulons vous aider à créer votre projet.
       </SectionTitle>
       <AnnouncementBanner text=" Nouvelle annonce importante ! La cérémonie de remise IDA le 7 juin à la cafeteria de la manufacture." />
       <Caroussel/>
@@ -132,7 +132,7 @@ export default function CV() {
                     Deep learning
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                   Apprentissage automatique avancé à l'aide de réseaux neuronaux.
+                   Apprentissage automatique avancé à l&apos;aide de réseaux neuronaux.
                   </p>
                 </div>
               </div>
@@ -142,10 +142,10 @@ export default function CV() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Système d'information
+                    Système d&apos;information
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Conception et modélisation de systèmes d'information pilotés par les données.
+                    Conception et modélisation de systèmes d&apos;information pilotés par les données.
                   </p>
                 </div>
               </div>
@@ -221,10 +221,10 @@ export default function CV() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Éthique juridique de l'IA et du Green IT
+                    Éthique juridique de l&apos;IA et du Green IT
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                  Contribuer à l'adoption d'une approche éthique des données et de l'apprentissage.
+                  Contribuer à l&apos;adoption d&apos;une approche éthique des données et de l&apos;apprentissage.
                   </p>
                 </div>
               </div>
@@ -243,7 +243,7 @@ export default function CV() {
         id="faq"
         pretitle="FAQ"
         title="Foire Aux Questions">
-        Si vous avez encore des questions, n'hésitez pas à consulter la section qui suit
+        Si vous avez encore des questions, n&apos;hésitez pas à consulter la section qui suit
       </SectionTitle>
       <Faq />
       <Footer />

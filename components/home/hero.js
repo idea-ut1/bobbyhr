@@ -11,7 +11,7 @@ const Hero = () => {
               IDeA
             </h1>
             <p className="py-5 text-xl leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-2xl">
-            Une communauté d'étudiants passionnée par l'informatique et l'innovation.
+            Une communauté d&apos;étudiants passionnée par l&apos;informatique et l&apos;innovation.
             </p>
           </div>
         </div>

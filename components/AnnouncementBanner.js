@@ -37,7 +37,7 @@ function AnnouncementBanner({ text }) {
             margin: 0,
           }}
         >
-          {text} <a href="https://ibb.co/JkYBF6y" target="_blank" style={{color: '#dea34e'}}> Cliquez ici pour voir l'image</a>
+          {text} <a href="https://ibb.co/JkYBF6y" target="_blank" style={{color: '#dea34e'}}> Cliquez ici pour voir l&apos;image</a>
         </p>
       </div>
     )
