@@ -5,18 +5,16 @@ import idea from "@/public/image/idea-logo.png";
 
 export default function Footer() {
   const navigation = [
-    {key: "Home", link: "#home"},
-    {key: "Wall of fame", link: "#wall"},
-    {key: "Skills", link: "#skills"},
-    {key: "Projects", link: "#projects"},
-    {key: "FAQ", link: "#faq"},
+    { key: "Accueil", link: "/#home" },
+    { key: "Wall of fame", link: "/#wall" },
+    { key: "Compétences", link: "/#skills" },
+    { key: "Projets", link: "/#projects" },
     { key: "Competences", link: "/competences" },
   ];
   const legal = [
-    { key: "Terms", link: "/terms" },
-    { key: "Privacy", link: "/privacy" },
-    { key: "Legal", link: "/" },
-    { key: "FAQ", link: "#faq" },
+    { key: "Conditions", link: "/terms" },
+    { key: "Confidentialité", link: "/privacy" },
+    { key: "FAQ", link: "/#faq" },
   ];
 
   return (
@@ -39,9 +37,9 @@ export default function Footer() {
             </div>
 
             <div className="mt-4 max-w-md text-gray-500 dark:text-gray-400">
-              IDeA is a non-profit organization that promotes the development of
-              various projects in the field of education, culture, art and
-              science.
+              IDeA est une organisation à but non lucratif qui promeut le développement
+              de divers projets dans le domaine de l&apos;éducation,
+              de la culture, de l&apos;art et de la science.
             </div>
           </div>
 
@@ -64,7 +62,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="">
-            <div>Follow us</div>
+            <div>Nous suivre</div>
             <div className="mt-5 flex space-x-5 text-gray-400 dark:text-gray-500">
               <Link
                 href="https://www.instagram.com/idea_ut1/"
@@ -87,7 +85,7 @@ export default function Footer() {
                 className="text-gray-400 hover:text-gray-500"
                 target="_blank"
                 rel="noopener">
-                <span className="sr-only">Mail To</span>
+                <span className="sr-only">Mail à</span>
                 <Mail />
               </Link>
             </div>
@@ -95,7 +93,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-center text-sm text-gray-600 dark:text-gray-400">
-          Copyright IDeA © {new Date().getFullYear()}.
+          Copyright IDeA © 2023. {new Date().getFullYear()}.
         </div>
       </div>
     </div>

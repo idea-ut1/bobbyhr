@@ -1,8 +1,32 @@
+"use client";
+import { ArrowLeftIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
+import { useState } from "react";
 import SectionTitle from "@/components/home/sectionTitle";
+import Footer from "@/components/footer";
+import { Menu } from "react-feather";
+import SliderHome from "@/components/slider-home";
 export default function Privacy() {
+  const [open, setOpen] = useState(false);
   return (
     <>
+      <Link href={'/'}>
+        <ArrowLeftIcon className="absolute w-10 h-10 text-blue-500 top-5 left-10" />
+      </Link>
       <div className="p-5 text-justify text-gray-700 bg-gray-100 lg:p-20">
+        <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby" />
+        <div className="fixed right-0 top-0 pr-4 pt-4">
+          <div className="flex items-start justify-end">
+            <button
+              type="button"
+              className="text-gray-300 hover:text-white"
+              onClick={() => setOpen(!open)}
+            >
+              <span className="sr-only">Open panel</span>
+              <Menu className="h-8 w-8" aria-hidden="true" />
+            </button>
+          </div>
+        </div>
         <h1 className="my-8 text-5xl font-extrabold text-center md:text-6xl lg:text-7xl">
           Privacy Policy for IDeA
         </h1>
@@ -145,7 +169,10 @@ export default function Privacy() {
             id="faq3"
             title="Contact Us" />
           <p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us.</p>
-        </div></div>
+
+        </div>
+        <Footer /></div>
+      <SliderHome open={open} setOpen={setOpen} />
     </>
   );
 }
