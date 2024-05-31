@@ -8,6 +8,14 @@ import spirits from "@/public/image/projects/catching-spirits.png";
 import occ from "@/public/image/projects/occitanie.png";
 import cancer from "@/public/image/projects/oncopole.png";
 import idea from "@/public/image/projects/idea.png";
+import python  from "@/public/image/skills/python.jpeg"
+import nextjs from "@/public/image/skills/nextjs.webp"
+import tailwind from "@/public/image/skills/tailwind.jpg"
+import powerbi from "@/public/image/skills/powerbi.png"
+import excel from "@/public/image/skills/excel.png"
+import unity from "@/public/image/skills/unity.webp"
+import alteryx from "@/public/image/skills/alteryx1.webp"
+import jupyter from "@/public/image/skills/jupyter.png"
 
 
 import React from "react";
@@ -100,7 +108,28 @@ const Caroussel_projet = (props) => {
         <div className="container mx-auto p-8 xl:px-0">
             <Slider {...settings}>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar 
+                            image={excel}
+                        />
+                        <Avatar
+                            image={python} 
+                        />
+                         <Avatar 
+                            image={jupyter}
+                        />
+                        <Avatar 
+                            image={alteryx}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Analyse et amélioration de la gestion des données clients pour l&apos;entreprise.
@@ -114,7 +143,19 @@ const Caroussel_projet = (props) => {
                   </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar
+                            image={python} 
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Développement et mise en place d&apos;un bot sur notre serveur discord.
@@ -128,7 +169,19 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar
+                            image={unity} 
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Développement de l&apos;intelligence artificielle pour un jeu vidéo.
@@ -142,7 +195,22 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar
+                            image={excel} 
+                        />
+                        <Avatar 
+                            image={powerbi}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Analyser la qualité de vie des habitants de l&apos;Occitanie et proposer des pistes d&apos;amélioration.
@@ -170,7 +238,25 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar
+                            image={tailwind} 
+                        />
+                        <Avatar 
+                            image={nextjs}
+                        />
+                        <Avatar 
+                            image={powerbi}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Développer et déployer un site web vitrine pour présenter IDEA.
@@ -198,7 +284,22 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar
+                            image={python} 
+                        />
+                        <Avatar 
+                            image={jupyter}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Prévoir le nombre de visiteurs du parc de jour comme de nuit.
@@ -212,7 +313,22 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar
+                            image={excel} 
+                        />
+                        <Avatar 
+                            image={powerbi}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Traitement et analyse des données sur les correspondances et les abonnements par le biais de tableaux de bord, et mise en place d&apos;une typologie des clients.
