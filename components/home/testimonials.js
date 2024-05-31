@@ -16,6 +16,12 @@ import excel from "@/public/image/skills/excel.png"
 import unity from "@/public/image/skills/unity.webp"
 import alteryx from "@/public/image/skills/alteryx1.webp"
 import jupyter from "@/public/image/skills/jupyter.png"
+import keras from "@/public/image/skills/keras.png"
+import go from "@/public/image/skills/go.png"
+import javascript from "@/public/image/skills/javascript.png"
+import pytorch from "@/public/image/skills/pytorch.png"
+import react from "@/public/image/skills/react.png"
+import tensorflow from "@/public/image/skills/tensorflow.png"
 
 
 import React from "react";
@@ -224,7 +230,28 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar 
+                            image={keras}
+                        />
+                        <Avatar
+                            image={python} 
+                        />
+                         <Avatar 
+                            image={pytorch}
+                        />
+                        <Avatar 
+                            image={tensorflow}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Identification des cellules endothéliales dans des images microscopiques pour prévenir du cancer du sein.
@@ -251,6 +278,9 @@ const Caroussel_projet = (props) => {
                         <Avatar 
                             image={nextjs}
                         />
+                         <Avatar 
+                            image={react}
+                        />
                         <Avatar 
                             image={powerbi}
                         />
@@ -270,7 +300,25 @@ const Caroussel_projet = (props) => {
                     </div>
                 </div>
                 <div className="hover:-translate-y-1 p-2">
-                <div className="slide-container" style={{ height: '350px', width: '475px' }}>
+                <div className="slide-container relative group" style={{ height: '350px', width: '475px' }}>
+                    <div className="absolute inset-0 flex carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                        <div className="flex flex-col">
+                        <h4 className="text-2xl leading-normal font-bold">
+                            Technologies utilisées : 
+                        </h4>
+                        <div className="flex flex-row space-x-4">
+                        <Avatar 
+                            image={javascript}
+                        />
+                        <Avatar
+                            image={go} 
+                        />
+                         <Avatar 
+                            image={react}
+                        />
+                        </div>
+                        </div>
+                    </div>
                     <div className="carousel-item dark:bg-trueGray-800 flex h-full w-full flex-col justify-between rounded-2xl bg-gray-100 p-14">
                         <p className="text-2xl leading-normal">
                             Créer un outil de visualisation des données du cinéma mais aussi de ses concurrents sur une base régulière et automatisée.
