@@ -189,8 +189,8 @@ const Caroussel = (props) => {
             <div className="p-1">
                 <SectionTitle
                     id="wall"
-                    pretitle="THE TEAM"
-                    title="Meet our team">
+                    pretitle="L'ÉQUIPE"
+                    title="Rencontrez notre équipe">
                 </SectionTitle>
                 <div className="slider-container">
 

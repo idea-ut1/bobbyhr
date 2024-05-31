@@ -51,7 +51,7 @@ function SliderHome({open, setOpen}) {
                             className="text-gray-300 hover:text-black"
                             onClick={() => setOpen(!open)}
                           >
-                            <span className="sr-only">Close panel</span>
+                            <span className="sr-only">Fermer le panneau</span>
                             <X className="h-8 w-8" aria-hidden="true"/>
                           </button>
                         </div>
@@ -83,7 +83,7 @@ function SliderHome({open, setOpen}) {
                               <Linkedin />
                             </Link>
                             <Link href="mailto:ideamiage@gmail.com" className="text-gray-400 hover:text-gray-500">
-                              <span className="sr-only">Mail To</span>
+                              <span className="sr-only">Mail à</span>
                               <Mail />
                             </Link>
                           </div>
@@ -96,9 +96,9 @@ function SliderHome({open, setOpen}) {
                       {/* Menu */}
                       <div className="max-h-0 w-3/4">
                         <div className="mt-6 flex flex-col justify-center gap-4 px-4 text-5xl text-gray-100 sm:px-6">
-                          <a href="#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Home</a>
-                          <a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Skills</a>
-                          <a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projects</a>
+                          <a href="#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Accueil</a>
+                          <a href="#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Compétences</a>
+                          <a href="#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projets</a>
                           <a href="#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>FAQ</a>
                           <a href="/competences" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Competences</a>
                         </div>

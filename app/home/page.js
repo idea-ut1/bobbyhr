@@ -50,9 +50,9 @@ export default function CV() {
       <Hero />
       <SectionTitle
         id = "wall"
-        pretitle="Why IDeA?"
-        title="Why should you contact us">
-        We are a team of students who learned how to code, and we want to help you create your project.
+        pretitle="Pourquoi IDeA?"
+        title="Pourquoi vous devez nous contacter?">
+        Nous sommes une équipe d'étudiants qui ont appris à coder et nous voulons vous aider à créer votre projet.
       </SectionTitle>
       <AnnouncementBanner text=" Nouvelle annonce importante ! La cérémonie de remise IDA le 7 juin à la cafeteria de la manufacture." />
       <Caroussel/>
@@ -77,10 +77,10 @@ export default function CV() {
           <div>
             <div className="mt-4 flex w-full flex-col">
               <h3 id="skills" className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
-                Lots of skills
+              De nombreuses compétences
               </h3>
               <p className="max-w-2xl py-4 text-lg leading-normal text-gray-500 dark:text-gray-300 lg:text-xl xl:text-xl">
-                Thanks to our different experiences, we have acquired a lot of skills in different fields.
+              Grâce à nos experiences, nous avons acquis de nombreuses compétences dans différents domaines.
               </p>
             </div>
             <div className="mt-5 w-full">
@@ -93,7 +93,7 @@ export default function CV() {
                     Data engineering
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Processing, managing, and optimizing data.
+                   Traitement, gestion et optimisation des données.
                   </p>
                 </div>
               </div>
@@ -106,7 +106,7 @@ export default function CV() {
                     Data visualization
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Operate Data to create a dashboard and visualize your data.
+                  Créez un tableau de bord pour visualiser vos données.
                   </p>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function CV() {
                     Machine learning
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Representing data for machine learning model to predict your data.
+                   Créez un modèle de machine learning pour prédire vos données.
                   </p>
                 </div>
               </div>
@@ -132,7 +132,7 @@ export default function CV() {
                     Deep learning
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Advanced machine learning using neural networks.
+                   Apprentissage automatique avancé à l'aide de réseaux neuronaux.
                   </p>
                 </div>
               </div>
@@ -142,10 +142,10 @@ export default function CV() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Information system
+                    Système d'information
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Data-driven information system design and modeling.
+                    Conception et modélisation de systèmes d'information pilotés par les données.
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function CV() {
           <div>
             <div className="mt-4 flex w-full flex-col">
               <h3 className="mt-3 max-w-2xl text-3xl font-bold leading-snug tracking-tight text-gray-800 dark:text-white lg:text-4xl lg:leading-tight">
-                And more...
+              Et plus encore...
               </h3>
             </div>
             <div className="mt-5 w-full">
@@ -185,7 +185,7 @@ export default function CV() {
                     Big data
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Designing business intelligence and big data analytics architecture.
+                    Gérez votre projet big data
                   </p>
                 </div>
               </div>
@@ -195,10 +195,10 @@ export default function CV() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Project management
+                   Gestion de projet
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Drive a digital project from scratch.
+                   Pilotez votre projet de A à Z.
                   </p>
                 </div>
               </div>
@@ -208,10 +208,10 @@ export default function CV() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Web development
+                    Développement Web
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Create a responsive website for your project.
+                    Créez un site web pour votre projet.
                   </p>
                 </div>
               </div>
@@ -221,10 +221,10 @@ export default function CV() {
                 </div>
                 <div>
                   <h4 className="text-xl font-medium text-gray-800 dark:text-gray-200">
-                    Legal ethics of AI and Green IT
+                    Éthique juridique de l'IA et du Green IT
                   </h4>
                   <p className="mt-1 text-gray-500 dark:text-gray-400">
-                    Helping to adopt an ethical approach to data and learning.
+                  Contribuer à l'adoption d'une approche éthique des données et de l'apprentissage.
                   </p>
                 </div>
               </div>
@@ -234,16 +234,16 @@ export default function CV() {
       </div>
       <SectionTitle
         id="projects"
-        pretitle="Projects"
-        title="Here's some of our projects">
-        We have already worked on some projects, here are some of them.
+        pretitle="Projets"
+        title="Voici quelques-uns de nos projets">
+        Nous avons déjà travaillé sur quelques projets, en voici quelques-uns.
       </SectionTitle>
       <Testimonials />
       <SectionTitle
         id="faq"
         pretitle="FAQ"
-        title="Frequently Asked Questions">
-        If you still have questions, look here.
+        title="Foire Aux Questions">
+        Si vous avez encore des questions, n'hésitez pas à consulter la section qui suit
       </SectionTitle>
       <Faq />
       <Footer />
