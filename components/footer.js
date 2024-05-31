@@ -5,18 +5,16 @@ import idea from "@/public/image/idea-logo.png";
 
 export default function Footer() {
   const navigation = [
-    {key: "Accueil", link: "#home"},
-    {key: "Wall of fame", link: "#wall"},
-    {key: "Compétences", link: "#skills"},
-    {key: "Projets", link: "#projects"},
-    {key: "FAQ", link: "#faq"},
+    { key: "Accueil", link: "/#home" },
+    { key: "Wall of fame", link: "/#wall" },
+    { key: "Compétences", link: "/#skills" },
+    { key: "Projets", link: "/#projects" },
     { key: "Competences", link: "/competences" },
   ];
   const legal = [
     { key: "Conditions", link: "/terms" },
     { key: "Confidentialité", link: "/privacy" },
-    { key: "Juridique", link: "/" },
-    { key: "FAQ", link: "#faq" },
+    { key: "FAQ", link: "/#faq" },
   ];
 
   return (
@@ -39,9 +37,9 @@ export default function Footer() {
             </div>
 
             <div className="mt-4 max-w-md text-gray-500 dark:text-gray-400">
-            IDeA est une organisation à but non lucratif qui promeut le développement 
-            de divers projets dans le domaine de l'éducation,
-             de la culture, de l'art et de la science.
+              IDeA est une organisation à but non lucratif qui promeut le développement
+              de divers projets dans le domaine de l'éducation,
+              de la culture, de l'art et de la science.
             </div>
           </div>
 
@@ -95,7 +93,7 @@ export default function Footer() {
         </div>
 
         <div className="my-10 text-center text-sm text-gray-600 dark:text-gray-400">
-        Copyright IDeA © 2023. {new Date().getFullYear()}.
+          Copyright IDeA © 2023. {new Date().getFullYear()}.
         </div>
       </div>
     </div>
