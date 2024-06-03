@@ -16,12 +16,12 @@ function SliderHome({ open, setOpen }) {
           leaveFrom="opacity-100"
           leaveTo="opacity-0"
         >
-          <div className="fixed inset-0 bg-gray-500/75 transition-opacity" />
+          <div className="fixed inset-0 transition-opacity bg-gray-500/75" />
         </Transition.Child>
 
         <div className="fixed inset-0 overflow-hidden">
           <div className="absolute inset-0 overflow-hidden">
-            <div className="pointer-events-none fixed inset-y-0 right-0 flex max-w-full">
+            <div className="fixed inset-y-0 right-0 flex max-w-full pointer-events-none">
               <Transition.Child
                 as={Fragment}
                 enter="transform transition ease-in-out duration-500 sm:duration-700"
@@ -31,7 +31,7 @@ function SliderHome({ open, setOpen }) {
                 leaveFrom="translate-x-0"
                 leaveTo="translate-x-full"
               >
-                <Dialog.Panel className="pointer-events-auto relative w-screen">
+                <Dialog.Panel className="relative w-screen pointer-events-auto">
                   <Transition.Child
                     as={Fragment}
                     enter="ease-in-out duration-500"
@@ -43,31 +43,31 @@ function SliderHome({ open, setOpen }) {
                   >
                     {/* Boutton fermeture */}
                     <div>
-                      <div className="absolute right-0 top-0 h-20 w-20 rounded-bl-full bg-white_background_bobby" />
-                      <div className="absolute right-0 top-0 pr-4 pt-4">
-                        <div className="flex h-full w-full items-start justify-end">
+                      <div className="absolute top-0 right-0 w-20 h-20 rounded-bl-full bg-white_background_bobby" />
+                      <div className="absolute top-0 right-0 pt-4 pr-4">
+                        <div className="flex items-start justify-end w-full h-full">
                           <button
                             type="button"
                             className="text-gray-300 hover:text-black"
                             onClick={() => setOpen(!open)}
                           >
                             <span className="sr-only">Fermer le panneau</span>
-                            <X className="h-8 w-8" aria-hidden="true" />
+                            <X className="w-8 h-8" aria-hidden="true" />
                           </button>
                         </div>
                       </div>
                     </div>
                   </Transition.Child>
 
-                  <div className="flex h-full flex-row overflow-hidden bg-brown_bobby py-8 shadow-xl">
+                  <div className="flex flex-row h-full py-8 overflow-hidden shadow-xl bg-brown_bobby">
                     {/* Barre de navigation */}
-                    <div className="flex w-full flex-col md:flex-row">
+                    <div className="flex flex-col w-full md:flex-row">
 
                       {/* Logo */}
                       <div className="md:w-1/4">
-                        <div className="flex h-full flex-col items-center">
+                        <div className="flex flex-col items-center h-full">
                           <div className="flex grow">
-                            <h1 className="text-7xl text-white">
+                            <h1 className="text-white text-7xl">
                               IDeA
                             </h1>
                           </div>
@@ -94,13 +94,13 @@ function SliderHome({ open, setOpen }) {
                       <div className="w-px bg-white"></div>
 
                       {/* Menu */}
-                      <div className="max-h-0 w-3/4">
-                        <div className="mt-6 flex flex-col justify-center gap-4 px-4 text-5xl text-gray-100 sm:px-6">
+                      <div className="w-3/4 max-h-0">
+                        <div className="flex flex-col justify-center gap-4 px-4 mt-6 text-5xl text-gray-100 sm:px-6">
                           <a href="/#home" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Accueil</a>
                           <a href="/#skills" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Compétences</a>
                           <a href="/#projects" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Projets</a>
                           <a href="/#faq" className="hover:text-gray-500" onClick={() => setOpen(!open)}>FAQ</a>
-                          <a href="/competences" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Competences</a>
+                          <a href="/competences" className="hover:text-gray-500" onClick={() => setOpen(!open)}>Matrice</a>
                         </div>
                       </div>
                     </div>
