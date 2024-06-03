@@ -36,12 +36,12 @@ const Faq = () => {
 
 const faqdata = [
   {
-    question: "Is our project free",
-    answer: "Yes, our project are completely free!",
+    question: "Nos services sont-ils gratuits ?",
+    answer: "Oui, nos services sont complètement gratuits!",
   },
   {
-    question: "How can I contact you?",
-    answer: 'Email us at ideamiage@gmail.com',
+    question: "Comment puis-je vous contacter ?",
+    answer: "Envoyez nous un email à l'adresse ideamiage@gmail.com ",
   },
 ];
 

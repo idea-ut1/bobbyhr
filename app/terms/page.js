@@ -1,9 +1,33 @@
+"use client";
+import { ArrowLeftIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
+import { useState } from "react";
 import SectionTitle from "@/components/home/sectionTitle";
+import { Menu } from "react-feather";
+import SliderHome from "@/components/slider-home";
+import Footer from "@/components/footer";
 export default function Terms() {
+  const [open, setOpen] = useState(false);
   return (
     <>
-
+      <Link href={'/'}>
+        <ArrowLeftIcon className="absolute w-10 h-10 text-blue-500 top-5 left-10" />
+      </Link>
+      <div className="fixed right-0 top-0 h-20 w-20 rounded-bl-full bg-brown_bobby" />
+      <div className="fixed right-0 top-0 pr-4 pt-4">
+        <div className="flex items-start justify-end">
+          <button
+            type="button"
+            className="text-gray-300 hover:text-white"
+            onClick={() => setOpen(!open)}
+          >
+            <span className="sr-only">Open panel</span>
+            <Menu className="h-8 w-8" aria-hidden="true" />
+          </button>
+        </div>
+      </div>
       <div className="p-5 text-justify text-gray-700 bg-gray-100 lg:p-20 ">
+
         <h1 id="terms-of-use" className="my-8 text-5xl font-extrabold text-center md:text-6xl lg:text-7xl">
           Website Terms of Use
         </h1>
@@ -347,8 +371,13 @@ export default function Terms() {
 
           <p>Address: 2 Rue du Doyen Gabriel Marty, 31000 Toulouse</p>
           <p>Email: ideamiage@gmail.com</p>
-        </div></div>
+
+        </div>
+        <Footer />
+        <SliderHome open={open} setOpen={setOpen} />
+      </div>
+
     </>
+
   )
 }
-
