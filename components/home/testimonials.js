@@ -22,6 +22,7 @@ import javascript from "@/public/image/skills/javascript.png"
 import pytorch from "@/public/image/skills/pytorch.png"
 import react from "@/public/image/skills/react.png"
 import tensorflow from "@/public/image/skills/tensorflow.png"
+import csharp from "@/public/image/skills/csharp.png"
 
 
 import React from "react";
@@ -184,6 +185,9 @@ const Caroussel_projet = (props) => {
                         <div className="flex flex-row space-x-4">
                         <Avatar
                             image={unity} 
+                        />
+                        <Avatar
+                            image={csharp} 
                         />
                         </div>
                         </div>

@@ -17,6 +17,8 @@ function AnnouncementBanner({ text }) {
         className={`announcement-banner ${!visible ? 'fadeOut' : ''}`}
         style={{
           position: "fixed",
+          display : "flex",
+          flexWrap : "wrap",
           top: 0,
           left: 0,
           right: 0,
@@ -26,18 +28,21 @@ function AnnouncementBanner({ text }) {
           padding: "0px",
           textAlign: "center",
           zIndex: 1000,
+          placeContent : "center"
         }}
       >
         <p
-          className="marquee"
+          className="marquee "
           style={{
             fontSize: "20px",
             fontFamily: "Arial, sans-serif",
-            whiteSpace: "nowrap",
+            // whiteSpace: "nowrap",
             margin: 0,
+            display : "flex",
+            flexWrap : "wrap"
           }}
         >
-          {text} <a href="https://ibb.co/JkYBF6y" target="_blank" style={{color: '#dea34e'}}> Cliquez ici pour voir l&apos;image</a>
+          {text} <a href="https://ibb.co/JkYBF6y" target="_blank" style={{color: '#dea34e'}}>Cliquez ici pour voir l&apos;image</a>
         </p>
       </div>
     )

@@ -9,7 +9,7 @@ export default function Footer() {
     { key: "Wall of fame", link: "/#wall" },
     { key: "Compétences", link: "/#skills" },
     { key: "Projets", link: "/#projects" },
-    { key: "Competences", link: "/competences" },
+    { key: "Matrice de compétences", link: "/competences" },
   ];
   const legal = [
     { key: "Conditions", link: "/terms" },
