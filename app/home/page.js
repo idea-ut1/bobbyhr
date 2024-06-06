@@ -52,9 +52,9 @@ export default function CV() {
         id = "wall"
         pretitle="Pourquoi IDeA?"
         title="Pourquoi vous devez nous contacter?">
-        Nous sommes une équipe d&apos; étudiants qui ont appris à coder et nous voulons vous aider à créer votre projet.
+        Nous sommes une équipe d&apos; étudiants qui ont appris à coder et nous voulons vous aider à créer votre projet.  
       </SectionTitle>
-      <AnnouncementBanner text=" Nouvelle annonce importante ! La cérémonie de remise IDA le 7 juin à la cafeteria de la manufacture." />
+      <AnnouncementBanner text=" Nouvelle annonce importante ! La cérémonie de remise IDA le 7 juin en MS001." />
       <Caroussel/>
 
       <div className="container mx-auto p-8 xl:px-0 mb-20 flex flex-wrap lg:flex-nowrap lg:gap-10 ">
@@ -235,9 +235,7 @@ export default function CV() {
       <SectionTitle
         id="projects"
         pretitle="Projets"
-        title="Voici quelques-uns de nos projets">
-        Nous avons déjà travaillé sur quelques projets, en voici quelques-uns.
-      </SectionTitle>
+        title="Voici quelques-uns de nos projets"></SectionTitle>
       <Testimonials />
       <SectionTitle
         id="faq"
